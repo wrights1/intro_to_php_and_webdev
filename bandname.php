@@ -23,7 +23,7 @@
 <?php
 if(isset($_POST['click']))
 {
-    $name = exec('python C:\Users\Steven\Documents\AssortedCode\python\bandname_generator\generator.py');
+    $name = exec('python .\bandname_generator\generator.py');
 }
 ?>
 
