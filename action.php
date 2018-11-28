@@ -9,15 +9,14 @@ if (mysqli_connect_errno($mysqli)) {
 <h3> Here's everyone else here.</h3>
 
 <?php
-/* list all other users of database, then add new user */
+// list all other users of database, then add new user
 $query = "SELECT * FROM users";
 if ($res = mysqli_query($mysqli, $query)){
-    /* fetch associative array */
+    // fetch associative array
     while ($row = mysqli_fetch_assoc($res)) {
         printf ("%s: %s %s", $row["username"], $row["first_name"], $row["last_name"]);
-        ?></br><?php /* just a newline between results (really janky? probably a better way to do this) */
+        ?></br><?php // just a newline between results (really janky? probably a better way to do this)
     }
-    /* free result set */
     mysqli_free_result($res);
 }
 
