@@ -12,10 +12,10 @@ def fileRead(pathName):
     return text
 
 def generator():
-    path = os.path.abspath(r"username_generator\adjectives.txt")
+    path = os.path.abspath(r"generator\adjectives.txt")
     adj = fileRead(path)
 
-    path = os.path.abspath(r"username_generator\nounlist.txt")
+    path = os.path.abspath(r"generator\nounlist.txt")
     noun = fileRead(path)
 
     fixes = ["xXx", "x_x", "_x_","_-_"]

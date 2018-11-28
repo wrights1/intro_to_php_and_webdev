@@ -12,10 +12,10 @@ def fileRead(pathName):
     return text
 
 def generator():
-    path = os.path.abspath(r"bandname_generator\adjectives.txt")
+    path = os.path.abspath(r"generator\adjectives.txt")
     adj = fileRead(path)
 
-    path = os.path.abspath(r"bandname_generator\nounlist.txt")
+    path = os.path.abspath(r"generator\nounlist.txt")
     noun = fileRead(path)
     
     adjInt = random.randint(0,len(adj)-1)
