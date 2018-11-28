@@ -7,4 +7,4 @@ Creates band names using python and lists of English nouns and adjectives
 
 ## Username Generator
 
-Creates nice xbox live gamertag reminiscent usernames using pythong and lists of English nouns and adjectives
+Creates nice xbox live gamertag reminiscent usernames using python and lists of English nouns and adjectives
